@@ -24,7 +24,7 @@ const Banner = () => {
               <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
                 Free <br /> Untill you're ready
               </h1>
-              <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>Bewon AI trading is an advanced, algorithm - driven platfrom that uses  <br /> AI and machine learning to automate and optimize trading stragies. <br /> It analyzes market data in real time, executes precise trades, <br /> and maximizes returns while minimizing risk for traders across <br /> stocks, forex & cryptocurrencies.</p>
+              <p className='text-white md:text-lg font-normal mb-10 md:text-justify md:pr-10 text-justify'>Bewon AI trading is an advanced, algorithm - driven platfrom that uses   AI and machine learning to automate and optimize trading stragies.  It analyzes market data in real time, executes precise trades,  and maximizes returns while minimizing risk for traders across  stocks, forex & cryptocurrencies.</p>
               <div className='flex align-middle justify-center md:justify-start'>
                 <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary rounded-xl mr-6'>Get Started</button>
                 <button onClick={openModal} className='bg-transparent flex justify-center items-center text-white'>
