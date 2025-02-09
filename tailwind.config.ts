@@ -17,9 +17,9 @@ const config: Config = {
         '40%': '40%',
       },
       colors: {
-        primary: "#bd24df",
-        secondary: "#2d6ade",
-        bodyBg: "#03050d",
+        primary: "#32aeff",
+        secondary: "#1775b6",
+        bodyBg: "#00162a",
         darkmode: "#0C1B44",
         tablebg: "#132259",
         border: "#091945",

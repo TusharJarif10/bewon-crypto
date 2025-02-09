@@ -22,9 +22,9 @@ const Banner = () => {
           <div className='grid grid-cols-1 lg:grid-cols-12 my-16'>
             <div className='col-span-7'>
               <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
-                Buy, Sell & Accept <br /> Digital Assets
+                Free <br /> Untill you're ready
               </h1>
-              <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry. Lorem Ipsum has been the industry <br /> standard dummy text ever since the 1500s</p>
+              <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>Bewon AI trading is an advanced, algorithm - driven platfrom that uses  <br /> AI and machine learning to automate and optimize trading stragies. <br /> It analyzes market data in real time, executes precise trades, <br /> and maximizes returns while minimizing risk for traders across <br /> stocks, forex & cryptocurrencies.</p>
               <div className='flex align-middle justify-center md:justify-start'>
                 <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary rounded-xl mr-6'>Get Started</button>
                 <button onClick={openModal} className='bg-transparent flex justify-center items-center text-white'>

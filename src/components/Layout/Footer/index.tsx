@@ -37,8 +37,8 @@ const footer = () => {
         <div className="grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
           <div className='col-span-6'>
             <img
-              className="block h-12 w-20px mb-4"
-              src={'/images/logo/logo.svg'}
+              className="block h-16 w-34px mb-4"
+              src={'/images/logo/logo2.png'}
               alt="Crypto-Logo"
             />
             <h3 className='text-white/60 text-sm font-normal leading-9 mb-4 lg:mb-16'> Cryptocurrency is a type of virtual currency that uses cryptography to secure transactions that are digitally recorded on a distributed ledger, such as a blockchain.</h3>

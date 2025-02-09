@@ -4,12 +4,12 @@ import Link from "next/link";
 const Logo: React.FC = () => {
   return (
     <Link href="/">
-      <Image
-        src="/images/logo/logo.svg"
+      <Image className=""
+        src="/images/logo/logo2.png"
         alt="logo"
-        width={160}
-        height={50}
-        style={{ width: "auto", height: "auto" }}
+        width={110}
+        height={60}
+        // style={{ width: "auto", height: "auto" }}
         quality={100}
       />
     </Link>
