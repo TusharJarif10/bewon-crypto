@@ -52,14 +52,14 @@ const Companies = () => {
                     <Marquee pauseOnClick={true}>
                     {Companiesdata.map((item, i) =>
                             <div key={i}>
-                                <img src={item.imgSrc} alt={item.imgSrc} className="md:w-56 w-28" />
+                                <img src={item.imgSrc} alt={item.imgSrc} className="md:w-56 w-32" />
                             </div>
                         )}
                     </Marquee>
                     <Marquee direction="right" pauseOnClick={true} >
                     {Companiesdata.map((item, i) =>
                             <div key={i}>
-                                <img src={item.imgSrc} alt={item.imgSrc} className="md:w-56 w-28" />
+                                <img src={item.imgSrc} alt={item.imgSrc} className="md:w-56 w-32" />
                             </div>
                         )}
                     </Marquee>
