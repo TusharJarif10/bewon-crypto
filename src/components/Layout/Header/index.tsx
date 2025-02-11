@@ -71,7 +71,7 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 z-40 w-full transition-all duration-300 ${sticky ? " shadow-lg bg-bodyBg bg-banner-image py-4" : "shadow-none py-8"
+      className={`fixed top-0 z-40 w-full transition-all duration-300 ${sticky ? "   bg-gradient-to-r from-indigo-950 to-purple-800  py-4" : "shadow-none py-8"
         }`}
     >
       <div className="lg:py-0 py-2">
@@ -93,7 +93,7 @@ const Header: React.FC = () => {
               Sign In
             </Link>
             {isSignInOpen && (
-              <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
+              <div className="fixed top-0 left-0 w-full h-full bg-black flex items-center justify-center z-50">
                 <div
                   ref={signInRef}
                   className="relative mx-auto w-full max-w-md overflow-hidden rounded-lg px-8 pt-14 pb-8 text-center bg-simple-bg backdrop-blur-md"

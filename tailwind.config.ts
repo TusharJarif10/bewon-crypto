@@ -19,7 +19,7 @@ const config: Config = {
       colors: {
         primary: "#32aeff",
         secondary: "#1775b6",
-        bodyBg: "#00162a",
+        bodyBg: "#272727",
         darkmode: "#0C1B44",
         tablebg: "#132259",
         border: "#091945",
@@ -29,12 +29,12 @@ const config: Config = {
         390: '390px',
         
       },
-      backgroundImage: {
-        "banner-image": "linear-gradient(90deg,#bd24df80,#2d6ade80 97.15%)",
-        "simple-bg": "linear-gradient(90deg,rgba(189,36,223,.1),rgba(45,106,222,.1) 97.15%)",
-        "arrow-bg": "url('/images/simple/arrow-bg.png')",
-        "newsletter": "url('/images/newsletter/hands.svg')",
-      },
+      // backgroundImage: {
+      //   "banner-image": "linear-gradient(90deg,#bd24df80,#2d6ade80 97.15%)",
+      //   "simple-bg": "linear-gradient(90deg,rgba(189,36,223,.1),rgba(45,106,222,.1) 97.15%)",
+      //   "arrow-bg": "url('/images/simple/arrow-bg.png')",
+      //   "newsletter": "url('/images/newsletter/hands.svg')",
+      // },
     },
   },
   plugins: [],

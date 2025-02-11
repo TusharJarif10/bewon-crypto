@@ -24,7 +24,7 @@ const HeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
     >
       <Link
         href={item.href}
-        className={`text-base flex font-medium capitalized border-b border-transparent  ${path === item.href ? "border-white text-white" : " text-white "
+        className={`text-base flex font-semibold capitalized border-b border-transparent  ${path === item.href ? "border-white text-white" : " text-white "
           }`}
       >
         {item.label}

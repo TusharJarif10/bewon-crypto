@@ -1,15 +1,34 @@
 "use client"
 import Image from 'next/image';
 import { workdata } from '@/app/api/data';
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import React, { Component, useEffect } from "react";
 
 const Work = () => {
+
+    useEffect(() => {
+        Aos.init();
+      }, [] )
+
+    const myStyle = {
+        backgroundImage: "url(/images/Banner/trading.jpg)",
+        height: "160vh",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+
+    };
+
     return (
-        <section>
-            <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 relative'>
+        <section style={myStyle}>
+            <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 md:mt-52 relative'>
                 <div className="bg-banner-image hidden lg:block absolute w-full h-full top-1/2 -right-1/4 blur-390"></div>
                 <div className='text-center mb-14'>
-                    <h3 className='text-white/80 text-3xl md:text-5xl font-bold mb-3'>How it work</h3>
-                    <p className='text-white/60 md:text-lg font-normal leading-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry standard dummy text ever.</p>
+                    <h3 data-aos="flip-down" data-aos-duration={1000} className='text-white/80 text-3xl md:text-5xl font-bold mb-3'>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
+                        How it work</span>
+                        </h3>
+                    <p className='text-white/60 md:text-lg font-normal leading-8 text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry standard dummy text ever.</p>
                 </div>
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32'>
                     {workdata.map((items, i) => (
