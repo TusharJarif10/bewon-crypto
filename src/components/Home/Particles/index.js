@@ -1,11 +1,11 @@
 "use client";
 import React from 'react'
-import Particles from 'react-particles'
+import Particles from 'react-tsparticles'
 import particlesConfig from '@/components/config/particlesConfig';
 
 const particalesBackground = () => {
   return (
-    <div>
+    <div className='z-50'>
       <Particles params={particlesConfig}>
 
       </Particles>

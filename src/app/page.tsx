@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main>
-      {/* <ParticlesBackground /> */}
+    
+    <>
       <Hero />
       <Companies />
       <Work />
@@ -25,6 +25,6 @@ export default function Home() {
       <Simple />
       <Trade />
       <Faq />
-    </main>
+    </>
   );
 }

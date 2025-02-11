@@ -21,27 +21,25 @@ const Banner = () => {
   const closeModal = () => {
     setOpen(false);
   }
-
-  // const myStyle = {
-  //   backgroundImage: "url(/images/Banner/bitcoin1.jpg)",
-  //   height: "130vh",
-  //   backgroundSize: "cover",
-  //   backgroundRepeat: "no-repeat",
-
-  //   }
+  const myStyle = {
+    backgroundImage: "url(/images/Banner/nn.jpg)",
     
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+
+};
 
 
 
   return (
      
-    <section  className='relative' id="home-section">
+    <section style={myStyle} className='relative' id="home-section">
       
-      <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md md:pt-52 pt-24 px-4 relative">
+      <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md md:pt-56 pt-24 px-4 relative">
         <div className='bg-banner-image hidden lg:block absolute w-full h-full top-0 blur-390'></div>
         <div className='relative z-10'>
           <div className='grid grid-cols-1 lg:grid-cols-12 md:my-16 my-8'>
-            <div className='col-span-7'>
+            <div data-aos="fade-right" data-aos-duration="2000" className=' col-span-7 md:pr-12'>
               <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
                
@@ -57,7 +55,7 @@ const Banner = () => {
                 </button>
               </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="2000" className='col-span-5 lg:-m-48'>
+            <div data-aos="fade-left" data-aos-duration="2000" className='col-span-5 lg:-m-48 pt-20'>
               <Image src="/images/Banner/banner.png" alt="nothing" width={1013} height={760} />
             </div>
           </div>

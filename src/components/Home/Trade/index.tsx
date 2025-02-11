@@ -5,6 +5,7 @@ const Trade = () => {
     return (
         <section>
             <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 relative">
+                
                 <div className="bg-gradient-to-r from-primary to-secondary hidden lg:block absolute w-full h-full top-1/2 -right-1/4 blur-390"></div>
                 <div className="grid lg:grid-cols-2 gap-x-5 relative z-10">
                     <div>

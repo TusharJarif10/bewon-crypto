@@ -1,6 +1,9 @@
 
 
 const Simple = () => {
+
+
+
     return (
         <section className="bg-simple-bg relative before:absolute before:w-full before:h-full before:bg-arrow-bg before:bg-no-repeat before:top-10">
             <div className="">
