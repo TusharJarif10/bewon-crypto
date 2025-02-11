@@ -19,7 +19,7 @@ const config: Config = {
       colors: {
         primary: "#32aeff",
         secondary: "#1775b6",
-        bodyBg: "#00000",
+        bodyBg: "#000000",
         darkmode: "#0C1B44",
         tablebg: "#132259",
         border: "#091945",
