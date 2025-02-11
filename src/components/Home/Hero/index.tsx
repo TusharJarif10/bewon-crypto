@@ -55,7 +55,7 @@ const Banner = () => {
                 </button>
               </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="2000" className='col-span-5 lg:-m-48 pt-20'>
+            <div data-aos="fade-left" data-aos-duration="2000" className='col-span-5 lg:-m-48  md:pt-20 pt-10'>
               <Image src="/images/Banner/banner.png" alt="nothing" width={1013} height={760} />
             </div>
           </div>
