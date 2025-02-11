@@ -31,13 +31,13 @@ const socialLinks: Social[] = [
 
 const footer = () => {
   return (
-    <footer className="bg-bodyBg relative">
+    <footer className="bg-bodyBg relative pt-10">
       <div className="bg-gradient-to-r from-primary to-secondary hidden lg:block absolute w-full h-full top-0 -left-1/2 blur-390"></div>
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 relative z-10 pb-16">
         <div className="grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
           <div className='col-span-6'>
             <img
-              className="block h-16 w-34px mb-4"
+              className="block w-36 mb-4"
               src={'/images/logo/logo2.png'}
               alt="Crypto-Logo"
             />
