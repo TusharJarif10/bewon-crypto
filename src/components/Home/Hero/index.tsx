@@ -1,10 +1,17 @@
 "use client"
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Icon } from "@iconify/react/dist/iconify.js";
 import particalesBackground from '../Particles';
 import { Typewriter } from 'react-simple-typewriter'
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const Banner = () => {
+
+  useEffect(() => {
+    Aos.init();
+  }, [] )
+
   const [isOpen, setOpen] = useState(false)
 
   const openModal = () => {
@@ -50,7 +57,7 @@ const Banner = () => {
                 </button>
               </div>
             </div>
-            <div className='col-span-5 lg:-m-48'>
+            <div data-aos="fade-left" data-aos-duration="2000" className='col-span-5 lg:-m-48'>
               <Image src="/images/Banner/banner.png" alt="nothing" width={1013} height={760} />
             </div>
           </div>

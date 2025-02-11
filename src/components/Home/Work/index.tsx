@@ -24,7 +24,7 @@ const Work = () => {
             <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 md:mt-52 relative'>
                 <div className="bg-banner-image hidden lg:block absolute w-full h-full top-1/2 -right-1/4 blur-390"></div>
                 <div className='text-center mb-14'>
-                    <h3 data-aos="flip-down" data-aos-duration={1000} className='text-white/80 text-3xl md:text-5xl font-bold mb-3'>
+                    <h3 data-aos="flip-down" data-aos-duration={1500} className='text-white/80 text-3xl md:text-5xl font-bold mb-3'>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
                         How it work</span>
                         </h3>
