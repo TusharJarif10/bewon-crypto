@@ -12,6 +12,9 @@
     "@headlessui/react": "^2.2.0",
     "@iconify/icons-ion": "^1.2.10",
     "@iconify/react": "^5.0.1",
+    "@mui/x-charts": "^7.26.0",
+    "@tsparticles/all": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
     "aos": "^2.3.4",
     "axios": "^1.7.2",
     "date-fns": "^3.4.0",
@@ -29,7 +32,8 @@
     "react-tsparticles": "^2.12.2",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "usage-stats": "^0.9.5"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",

@@ -10,3 +10,9 @@ html {
 section {
   @apply py-20 bg-bodyBg;
 }
+
+
+.particles canvas{
+  z-index: -1;
+  position: absolute;
+}

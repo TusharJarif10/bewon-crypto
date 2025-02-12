@@ -8,7 +8,7 @@ import Trade from "@/components/Home/Trade";
 import Simple from "@/components/Home/Simple";
 import Faq from "@/components/Home/Faq";
 import { Metadata } from "next";
-import ParticlesBackground from "@/components/Home/Particles";
+import ParticlesComponent from "@/app/particles"
 export const metadata: Metadata = {
   title: "Crypto",
 };
@@ -17,6 +17,7 @@ export default function Home() {
   return (
     
     <>
+    <ParticlesComponent id="particles" />
       <Hero />
       <Companies />
       <Work />
