@@ -48,12 +48,13 @@ const ParticlesComponent = (props) => {
           onHover: {
             enable: true,
             mode: 'repulse',
+            distance: 90,
           },
         },
         modes: {
           push: {
-            distance: 150,
-            duration: 20,
+            distance: 180,
+            duration: 15,
           },
           grab: {
             distance: 100,
@@ -63,11 +64,13 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         color: {
-          value: "#7bd9ff",
+          value: "#9c9c9c",
+          opacity: 0.2,
+          distance: 120,
         },
         links: {
-          color: "#7bd9ff",
-          distance: 50,
+          color: "#9c9c9c",
+          distance: 65,
           enable: true,
           opacity: 1,
           width: 1,
@@ -80,23 +83,23 @@ const ParticlesComponent = (props) => {
             default: "bounce",
           },
           random: true,
-          speed: 3,
+          speed: 1.2,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 350,
+          value: 220,
         },
         opacity: {
-          value: 1.0,
+          value: 0.7,
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 3 },
+          value: { min: 0.5, max: 3 },
         },
       },
       detectRetina: true,
