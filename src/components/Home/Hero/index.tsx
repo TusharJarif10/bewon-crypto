@@ -23,7 +23,6 @@ const Banner = () => {
   }
   const myStyle = {
     backgroundImage: "url(/images/Banner/nn.jpg)",
-    
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
 
@@ -40,11 +39,11 @@ const Banner = () => {
         <div className='relative z-10'>
           <div className='grid grid-cols-1 lg:grid-cols-12 md:my-16 my-8'>
             <div data-aos="fade-right" data-aos-duration="2000" className=' col-span-7 md:pr-12'>
-              <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
+              <h1 className="text-3xl lg:text-7xl md:text-5xl font-bold mb-5 text-white md:4px text-start ">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
                
                 Free <br /> 
-                <Typewriter words={['Untill you are ready']} loop={30}  />
+                Untill<Typewriter words={[' you are ready']} loop={30}  />
                 </span>
               </h1>
               <p className='text-white md:text-lg font-normal mb-10 md:text-justify md:pr-10 text-justify'>Bewon AI trading is an advanced, algorithm - driven platfrom that uses   AI and machine learning to automate and optimize trading stragies.  It analyzes market data in real time, executes precise trades,  and maximizes returns while minimizing risk for traders across  stocks, forex & cryptocurrencies.</p>

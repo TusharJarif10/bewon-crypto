@@ -9,6 +9,7 @@ import Simple from "@/components/Home/Simple";
 import Faq from "@/components/Home/Faq";
 import { Metadata } from "next";
 import ParticlesComponent from "@/app/particles"
+import AnimatedCursor from "react-animated-cursor"
 export const metadata: Metadata = {
   title: "Crypto",
 };
@@ -17,6 +18,32 @@ export default function Home() {
   return (
     
     <>
+   <AnimatedCursor
+      innerSize={12}
+      outerSize={24}
+      color='255, 255, 255'
+      outerAlpha={0.2}
+      outerStyle={{
+        mixBlendMode: 'exclusion',
+        color: 'white'
+      }}
+      innerScale={1.5}
+      outerScale={3}
+      
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link'
+      ]}
+    />
     <ParticlesComponent id="particles" />
       <Hero />
       <Companies />
