@@ -48,7 +48,7 @@ const Banner = () => {
               </h1>
               <p className='text-white md:text-lg font-normal mb-10 md:text-justify md:pr-10 text-justify'>Bewon AI trading is an advanced, algorithm - driven platfrom that uses   AI and machine learning to automate and optimize trading stragies.  It analyzes market data in real time, executes precise trades,  and maximizes returns while minimizing risk for traders across  stocks, forex & cryptocurrencies.</p>
               <div className='flex align-middle justify-center md:justify-start'>
-                <button className='text-xl text-black py-2 px-2 lg:px-4 bg-gradient-to-r from-teal-400 to-amber-500  hover:bg-blue-400 rounded-xl mr-6'>Get Started</button>
+                <button className='text-lg text-black py-2 px-2 lg:px-4 bg-gradient-to-r from-teal-400 to-amber-500  hover:bg-blue-400 rounded-xl mr-6'>Get Started</button>
                 <button onClick={openModal} className='bg-transparent flex justify-center items-center text-white'>
                   {/* <Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />How it work */}
                 </button>

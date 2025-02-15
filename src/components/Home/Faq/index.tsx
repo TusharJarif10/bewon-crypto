@@ -9,7 +9,7 @@ const Faq = () => {
         <section>
             <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 relative z-10" id="faq-section">
                 <h3 className="text-center text-3xl lg:text-5xl font-bold text-white mb-3">Frequently Asked And Question</h3>
-                <p className="text-center lg:text-lg font-normal text-white/40">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br /> been the industry standard dummy text ever since the 1500s,</p>
+                <p className="text-center lg:text-lg font-normal text-white/40">FAQs (Frequently Asked Questions) provide quick answers to common queries about a product, service, or topic. They cover functionality, security, troubleshooting, and usage, helping users find solutions without needing direct support.</p>
                 <div className="mx-auto max-w-7xl">
                     <div className="grid lg:grid-cols-2">
                         <div>
