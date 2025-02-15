@@ -71,11 +71,11 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 z-40 w-full transition-all duration-300 ${sticky ? "   bg-gradient-to-r from-indigo-950 to-purple-800  py-4" : "shadow-none py-8"
+      className={`fixed top-0 z-40 w-full transition-all duration-300 ${sticky ? " bg-gradient-to-r from-indigo-950 to-purple-800  py-4 pr-2" : "shadow-none py-8"
         }`}
     >
-      <div className="lg:py-0 py-2">
-        <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between">
+      <div className="lg:py-0">
+        <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between ">
           <Logo />
           <nav className="hidden lg:flex flex-grow items-center gap-8 justify-center ml-14  ">
             {headerData.map((item, index) => (
@@ -83,7 +83,11 @@ const Header: React.FC = () => {
             ))}
           </nav>
           <div className="flex items-center gap-4">
-            <Link
+
+            <button className="bg-gradient-to-r from-teal-400 to-amber-500 p-2 rounded-xl px-4 text-black lg:block md:block hidden  ">
+              Contact Now
+            </button>
+            {/* <Link
               href="#"
               className="hidden lg:block bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-white duration-300 px-5 py-4 rounded-lg"
               onClick={() => {
@@ -91,7 +95,7 @@ const Header: React.FC = () => {
               }}
             >
               Sign In
-            </Link>
+            </Link> */}
             {isSignInOpen && (
               <div className="fixed top-0 left-0 w-full h-full bg-black flex items-center justify-center z-50">
                 <div
@@ -112,7 +116,7 @@ const Header: React.FC = () => {
                 </div>
               </div>
             )}
-            <Link
+            {/* <Link
               href="#"
               className="hidden lg:block text-white bg-gradient-to-r from-secondary to-primary hover:from-primary hover:to-secondary duration-300 px-5 py-4 rounded-lg"
               onClick={() => {
@@ -120,7 +124,7 @@ const Header: React.FC = () => {
               }}
             >
               Sign Up
-            </Link>
+            </Link> */}
             {isSignUpOpen && (
               <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
                 <div
@@ -143,12 +147,12 @@ const Header: React.FC = () => {
             )}
             <button
               onClick={() => setNavbarOpen(!navbarOpen)}
-              className="block lg:hidden p-2 rounded-lg"
+              className="block lg:hidden p-2 rounded-lg "
               aria-label="Toggle mobile menu"
             >
-              <span className="block w-6 h-0.5 bg-white"></span>
-              <span className="block w-6 h-0.5 bg-white mt-1.5"></span>
-              <span className="block w-6 h-0.5 bg-white mt-1.5"></span>
+              <span className="block w-6 h-0.5 bg-lime-400"></span>
+              <span className="block w-6 h-0.5 bg-amber-300 mt-1.5"></span>
+              <span className="block w-6 h-0.5 bg-lime-400 mt-1.5"></span>
             </button>
           </div>
         </div>
@@ -160,7 +164,7 @@ const Header: React.FC = () => {
           className={`lg:hidden fixed top-0 right-0 h-full w-full bg-darkmode shadow-lg transform transition-transform duration-300 max-w-xs ${navbarOpen ? "translate-x-0" : "translate-x-full"
             } z-50`}
         >
-          <div className="flex items-center justify-between p-4">
+          <div className="flex items-center justify-between pt-2 w-24">
             <h2 className="text-lg font-bold text-midnight_text dark:text-midnight_text">
               <Logo />
             </h2>
@@ -168,7 +172,7 @@ const Header: React.FC = () => {
             {/*  */}
             <button
               onClick={() => setNavbarOpen(false)}
-              className="bg-[url('/images/closed.svg')] bg-no-repeat bg-contain w-5 h-5 absolute top-0 right-0 mr-8 mt-8 dark:invert"
+              className="bg-[url('/images/closed.svg')] bg-no-repeat bg-contain w-5 h-5 absolute top-0 right-0 mr-8 mt-8 "
               aria-label="Close menu Modal"
             ></button>
           </div>
@@ -177,7 +181,7 @@ const Header: React.FC = () => {
               <MobileHeaderLink key={index} item={item} />
             ))}
             <div className="mt-4 flex flex-col space-y-4 w-full">
-              <Link
+              {/* <Link
                 href="#"
                 className="bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white"
                 onClick={() => {
@@ -196,6 +200,11 @@ const Header: React.FC = () => {
                 }}
               >
                 Sign Up
+              </Link> */}
+              <Link
+                href="#"
+                className="bg-gradient-to-r from-teal-400 to-amber-500 text-black px-4 py-2 rounded-lg hover:bg-blue-700">
+                Contact Now
               </Link>
             </div>
           </nav>

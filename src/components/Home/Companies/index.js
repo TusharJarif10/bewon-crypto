@@ -21,7 +21,7 @@ const Companies = () => {
   return (
     <section >
 
-      <h3 data-aos="flip-down" data-aos-duration="1500" className="text-white/80 text-3xl md:text-5xl font-bold text-center  md:mb-14 mb-8">
+      <h3 className="text-white/80 text-3xl md:text-5xl font-bold text-center  md:mb-14 mb-8">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">Our Partners</span> 
       </h3>
 

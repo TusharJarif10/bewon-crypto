@@ -29,8 +29,7 @@ const Features = () => {
           {/* Column-1 */}
           <div className="px-2">
             <h3
-              data-aos="flip-down"
-              data-aos-duration={1500}
+              
               className="text-center text-3xl md:text-5xl font-bold mb-10"
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">

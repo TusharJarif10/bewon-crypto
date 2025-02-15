@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "@/components/Home/Hero";
+import TokenDescription from "@/components/Home/token";
 import Companies from "@/components/Home/Companies";
 import Work from "@/components/Home/Work";
 import Table from "@/components/Home/Table";
@@ -50,6 +51,7 @@ export default function Home() {
       <Work />
       <Table />
       <Features />
+      <TokenDescription />
       <Simple />
       <Trade />
       <Faq />

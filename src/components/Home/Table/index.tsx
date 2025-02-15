@@ -65,8 +65,7 @@ const Table = () => {
         id="exchange-section"
       >
         <h3
-          data-aos="flip-down"
-          data-aos-duration={1500}
+          
           className="text-3xl md:text-5xl font-bold  text-center mt-5 mb-16"
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">

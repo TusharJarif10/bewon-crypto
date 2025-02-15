@@ -38,23 +38,23 @@ const Banner = () => {
         <div className='bg-banner-image hidden lg:block absolute w-full h-full top-0 blur-390'></div>
         <div className='relative z-10'>
           <div className='grid grid-cols-1 lg:grid-cols-12 md:my-16 my-8'>
-            <div data-aos="fade-right" data-aos-duration="2000" className=' col-span-7 md:pr-12'>
-              <h1 className="text-3xl lg:text-7xl md:text-5xl font-bold mb-5 text-white md:4px text-start ">
+            <div className='col-span-7 md:pr-12'>
+              <h1 className="text-3xl lg:text-5xl md:text-4xl font-bold mb-5 text-white md:4px md:text-start text-center ">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
                
                 Free <br /> 
-                Untill<Typewriter words={[' you are ready']} loop={30}  />
+                Untill<Typewriter words={[' you are ready!']} loop={30}  />
                 </span>
               </h1>
               <p className='text-white md:text-lg font-normal mb-10 md:text-justify md:pr-10 text-justify'>Bewon AI trading is an advanced, algorithm - driven platfrom that uses   AI and machine learning to automate and optimize trading stragies.  It analyzes market data in real time, executes precise trades,  and maximizes returns while minimizing risk for traders across  stocks, forex & cryptocurrencies.</p>
               <div className='flex align-middle justify-center md:justify-start'>
-                <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary rounded-xl mr-6'>Get Started</button>
+                <button className='text-xl text-black py-2 px-2 lg:px-4 bg-gradient-to-r from-teal-400 to-amber-500  hover:bg-blue-400 rounded-xl mr-6'>Get Started</button>
                 <button onClick={openModal} className='bg-transparent flex justify-center items-center text-white'>
                   {/* <Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />How it work */}
                 </button>
               </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="2000" className='col-span-5 lg:-m-48  md:pt-20 pt-10'>
+            <div className='col-span-5 lg:-m-48  md:pt-20 pt-10'>
               <Image src="/images/Banner/banner.png" alt="nothing" width={1013} height={760} />
             </div>
           </div>
