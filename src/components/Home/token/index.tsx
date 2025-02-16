@@ -3,7 +3,7 @@ import React from "react";
 const TokenDescription = () => {
   return (
     <div>
-      <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner mb-5 bg-black">
+      <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner pb-5 bg-black">
         <div className="w-full h-full flex flex-col justify-center items-center sm:px-4 px-2">
           <h3 className="text-center text-3xl md:text-5xl font-bold mb-10">
             <span className="text-transparent  bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
@@ -25,14 +25,13 @@ const TokenDescription = () => {
                 alt="About us"
               />
             </div>
-            <div className="lg:w-[60%] p-4 w-full h-full shadow-xl shadow-blue-400 flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl">
+            <div className="lg:w-[60%] p-4 w-full h-full flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl">
               <p className="break-all md:text-xl sm:text-lg text-base mt-2 text-justify sm:px-2 text-white/60 leading-6">
                 BON Token is a Binance Smart Chain (BSC)-based cryptocurrency
                 designed for AI-driven trading. It leverages advanced AI
                 algorithms to analyze market trends and execute profitable
                 trades automatically. With fast, low-cost transactions, BON
                 ensures secure, transparent, and efficient trading.
-              
               </p>
 
               {/* <button className="lg:mt-10 mt-6 lg:px-6 px-4 lg:py-4 py-2 bg-green-600 rounded-sm lg:text-xl text-lg text-white font-semibold">Read More</button> */}

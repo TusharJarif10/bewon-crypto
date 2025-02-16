@@ -8,6 +8,7 @@ import Features from "@/components/Home/Features";
 import Trade from "@/components/Home/Trade";
 import Simple from "@/components/Home/Simple";
 import Faq from "@/components/Home/Faq";
+import Contact from "@/components/Home/Contact";
 import { Metadata } from "next";
 import ParticlesComponent from "@/app/particles"
 import AnimatedCursor from "react-animated-cursor"
@@ -44,6 +45,7 @@ export default function Home() {
         'button',
         '.link'
       ]}
+
     />
     <ParticlesComponent id="particles" />
       <Hero />
@@ -54,6 +56,7 @@ export default function Home() {
       <TokenDescription />
       <Simple />
       <Trade />
+      <Contact />
       <Faq />
     </>
   );

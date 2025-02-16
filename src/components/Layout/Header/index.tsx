@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+//import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { headerData } from "../Header/Navigation/menuData";
@@ -11,6 +11,7 @@ import Signin from "@/components/Auth/SignIn";
 import SignUp from "@/components/Auth/SignUp";
 import { useTheme } from "next-themes";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import { Link } from 'react-scroll'; 
 
 const Header: React.FC = () => {
   const pathUrl = usePathname();
@@ -71,8 +72,11 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 z-40 w-full transition-all duration-300 ${sticky ? " bg-gradient-to-r from-indigo-950 to-purple-800  py-4 pr-2" : "shadow-none py-8"
-        }`}
+      className={`fixed top-0 z-40 w-full transition-all duration-300 ${
+        sticky
+          ? " bg-gradient-to-r from-indigo-900 to-purple-900  py-4 pr-2"
+          : "shadow-none py-8"
+      }`}
     >
       <div className="lg:py-0">
         <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between ">
@@ -83,10 +87,12 @@ const Header: React.FC = () => {
             ))}
           </nav>
           <div className="flex items-center gap-4">
+            <Link to="contact" smooth={true} duration={500}>
+              <button className="bg-gradient-to-r from-teal-400 to-amber-500 p-2 rounded-xl px-4 text-black lg:block md:block hidden  ">
+                Contact Now
+              </button>
+            </Link>
 
-            <button className="bg-gradient-to-r from-teal-400 to-amber-500 p-2 rounded-xl px-4 text-black lg:block md:block hidden  ">
-              Contact Now
-            </button>
             {/* <Link
               href="#"
               className="hidden lg:block bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary text-white duration-300 px-5 py-4 rounded-lg"
@@ -161,8 +167,9 @@ const Header: React.FC = () => {
         )}
         <div
           ref={mobileMenuRef}
-          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-darkmode shadow-lg transform transition-transform duration-300 max-w-xs ${navbarOpen ? "translate-x-0" : "translate-x-full"
-            } z-50`}
+          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-darkmode shadow-lg transform transition-transform duration-300 max-w-xs ${
+            navbarOpen ? "translate-x-0" : "translate-x-full"
+          } z-50`}
         >
           <div className="flex items-center justify-between pt-2 w-24">
             <h2 className="text-lg font-bold text-midnight_text dark:text-midnight_text">
@@ -201,9 +208,10 @@ const Header: React.FC = () => {
               >
                 Sign Up
               </Link> */}
-              <Link
-                href="#"
-                className="bg-gradient-to-r from-teal-400 to-amber-500 text-black px-4 py-2 rounded-lg hover:bg-blue-700">
+              <Link 
+                to="contact" smooth={true} duration={500} offset={-100}
+                className="bg-gradient-to-r from-teal-400 to-amber-500 text-black px-4 py-2 rounded-lg hover:bg-blue-700"
+              >
                 Contact Now
               </Link>
             </div>
