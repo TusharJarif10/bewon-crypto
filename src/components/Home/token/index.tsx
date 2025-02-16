@@ -27,15 +27,12 @@ const TokenDescription = () => {
             </div>
             <div className="lg:w-[60%] p-4 w-full h-full shadow-xl shadow-blue-400 flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl">
               <p className="md:text-xl sm:text-lg text-base mt-2 text-justify sm:px-2 text-white/60 leading-6">
-                At Petal Haven, we believe in the transformative power of
-                flowers. Our blooms are not just arrangements; they are
-                expressions of beauty, joy, and emotion. From elegant bouquets
-                to enchanting floral designs, we curate every creation with
-                precision and care. Whether it's a celebration, a gesture of
-                love, or a moment of solace, Petal Haven's exquisite flowers
-                speak a language of their own, bringing nature's beauty to your
-                doorstep. Experience the enchantment of Petal Haven and let
-                flowers tell your story.
+                BON Token is a Binance Smart Chain (BSC)-based cryptocurrency
+                designed for AI-driven trading. It leverages advanced AI
+                algorithms to analyze market trends and execute profitable
+                trades automatically. With fast, low-cost transactions, BON
+                ensures secure, transparent, and efficient trading.
+              
               </p>
 
               {/* <button className="lg:mt-10 mt-6 lg:px-6 px-4 lg:py-4 py-2 bg-green-600 rounded-sm lg:text-xl text-lg text-white font-semibold">Read More</button> */}
