@@ -57,12 +57,12 @@ export const Featuresdata: { imgSrc: string; heading: string; subheading: string
     {
         imgSrc: '/images/features/featureTwo.svg',
         heading: 'Free to use',
-        subheading: 'BON Token is free to use for transactions, trading, and staking within its ecosystem. Enjoy seamless, secure, and efficient crypto transactions with no hidden fees.',
+        subheading: 'BON Token is free to use for transactions, trading, and staking within its ecosystem. Enjoy seamless, secure, and efficient crypto transactions with no hidden fees.',
     },
     {
         imgSrc: '/images/features/featureThree.svg',
         heading: 'Real-time price data',
-        subheading: 'Real-time cryptocurrency price data provides live updates on market values, helping traders make informed decisions. Platforms like CoinMarketCap, CoinGecko, and Binance** offer accurate, up-to-the-minute price tracking.',
+        subheading: 'Real-time cryptocurrency price data provides live updates on market values, helping traders make informed decisions. Platforms like CoinMarketCap, CoinGecko, and Binance offer accurate, up-to-the-minute price tracking.',
     },
 ]
 

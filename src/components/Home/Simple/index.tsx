@@ -8,7 +8,7 @@ const Simple = () => {
               A simple, secure way to buy <br /> and sell cryptocurrency
             </span>
           </h3>
-          <p className="text-justify text-white/60 md:text-lg leading-6 font-normal mb-8">
+          <p className="text-justify text-white/60 md:text-lg leading-6 font-normal mb-8 break-all">
             Easily buy and sell cryptocurrency on secure platforms like Binance,
             Coinbase, and Kraken. Enjoy fast transactions, strong security, and
             user-friendly interfaces.

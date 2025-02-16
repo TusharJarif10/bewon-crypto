@@ -46,7 +46,7 @@ const Banner = () => {
                 Untill<Typewriter words={[' you are ready!']} loop={30}  />
                 </span>
               </h1>
-              <p className='text-white/60 leading-6 md:text-lg font-normal mb-10 md:text-justify md:pr-10 text-justify'>Bewon AI trading is an advanced, algorithm - driven platfrom that uses   AI and machine learning to automate and optimize trading stragies.  It analyzes market data in real time, executes precise trades,  and maximizes returns while minimizing risk for traders across  stocks, forex & cryptocurrencies.</p>
+              <p className='text-white/60 leading-6 md:text-lg font-normal mb-10 md:text-justify break-all md:pr-10 text-justify'>Bewon AI trading is an advanced, algorithm driven platfrom that uses   AI and machine learning to automate and optimize trading stragies.  It analyzes market data in real time, executes precise trades,  and maximizes returns while minimizing risk for traders across  stocks, forex & cryptocurrencies.</p>
               <div className='flex align-middle justify-center md:justify-start'>
                 <button className='text-lg text-black py-2 px-2 lg:px-4 bg-gradient-to-r from-teal-400 to-amber-500  hover:bg-blue-400 rounded-xl mr-6'>Get Started</button>
                 <button onClick={openModal} className='bg-transparent flex justify-center items-center text-white'>

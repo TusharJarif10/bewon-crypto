@@ -17,7 +17,7 @@ const Trade = () => {
                             Crypto Trade Anywhere Any time
                             </span>
                             </h3>
-                        <p className="lg:text-lg font-normal text-white/60 mb-16 text-justify ">Trade crypto 24/7 on DEXs and centralized platforms like Binance and Coinbase. Access real-time updates, secure transactions, and advanced tools from any device. Stay ahead and never miss an opportunity!</p>
+                        <p className="lg:text-lg font-normal text-white/60 mb-16 text-justify break-all">Trade crypto 24/7 on DEXs and centralized platforms like Binance and Coinbase. Access real-time updates, secure transactions, and advanced tools from any device. Stay ahead and never miss an opportunity!</p>
                         <div className="flex justify-between">
                             <Image src={'/images/trade/mac.svg'} alt="macOS-image" width={61} height={105} />
                             <div className="verticalLine"></div>

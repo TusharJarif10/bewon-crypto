@@ -26,7 +26,7 @@ const TokenDescription = () => {
               />
             </div>
             <div className="lg:w-[60%] p-4 w-full h-full shadow-xl shadow-blue-400 flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl">
-              <p className="md:text-xl sm:text-lg text-base mt-2 text-justify sm:px-2 text-white/60 leading-6">
+              <p className="break-all md:text-xl sm:text-lg text-base mt-2 text-justify sm:px-2 text-white/60 leading-6">
                 BON Token is a Binance Smart Chain (BSC)-based cryptocurrency
                 designed for AI-driven trading. It leverages advanced AI
                 algorithms to analyze market trends and execute profitable

@@ -16,7 +16,7 @@ const Faq = () => {
             Frequently Asked And Question
           </span>
         </h3>
-        <p className="text-justify lg:text-lg font-normal text-white/60">
+        <p className="text-justify lg:text-lg font-normal text-white/60 break-all">
           FAQs (Frequently Asked Questions) provide quick answers to common
           queries about a product, service, or topic. They cover functionality,
           security, troubleshooting, and usage, helping users find solutions
@@ -34,7 +34,7 @@ const Faq = () => {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <Disclosure.Button className="flex w-full justify-between rounded-lg text-white/80 sm:px-4 sm:py-2 text-left md:text-2xl font-medium">
+                          <Disclosure.Button className="flex w-full justify-between rounded-lg text-white sm:px-4 sm:py-2 text-left md:text-2xl font-medium">
                             <span>{items.heading}</span>
                             <Icon
                               icon="tabler:chevron-up"
@@ -43,7 +43,7 @@ const Faq = () => {
                               } text-2xl text-purple-500`}
                             />
                           </Disclosure.Button>
-                          <Disclosure.Panel className="px-4 pt-4 pb-2 md:text-lg text-white/40 font-normal">
+                          <Disclosure.Panel className="px-4 pt-4 pb-2 md:text-lg text-justify  break-all tracking-tighter leading-6  text-white/60 ">
                             {items.subheading}
                           </Disclosure.Panel>
                         </>

@@ -27,7 +27,7 @@ const Work = () => {
               How it work
             </span>
           </h3>
-          <p className="text-white/60 md:text-lg font-normal leading-6 text-justify">
+          <p className="text-white/60 md:text-lg font-normal text-justify break-all">
           BON Token is a cryptocurrency for AI-powered trading, using advanced AI to analyze market trends and execute trades efficiently. It enables secure transactions, fee payments, and staking rewards, making trading smarter and faster.
           </p>
         </div>
@@ -52,7 +52,7 @@ const Work = () => {
             <h3 className="text-2xl text-white font-semibold text-center mt-8">
               Create Account
             </h3>
-            <p className="text-start text-base font-normal text-white mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
+            <p className=" text-justify break-all text-base font-normal text-white/60 mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
               1. Install MetaMask <br />
               2. Go to MetaMask Website (https://metamask.io/) & download the
               extension for your browser or install the mobile app. <br />
@@ -90,7 +90,7 @@ const Work = () => {
             <h3 className="text-2xl text-white font-semibold text-center mt-8">
               Find your web3 wallet
             </h3>
-            <p className="text-start text-base font-normal text-white mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
+            <p className="text-justify break-all text-base font-normal text-white/60 mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
               1. Open Your Web3 Wallet <br />
               2. Open MetaMask, Trust Wallet, Binance or any Web3-compatible
               wallet. Ensure you are on the correct blockchain network (e.g.,
@@ -104,7 +104,7 @@ const Work = () => {
               BON Token. <br />
               7. Click "Connect Wallet" and choose your Web3 wallet.
                Approve the connection, and you’re ready to trade or
-              use BON Token! 🚀
+              use BON Token! 🚀
             </p>
           </div>
           <div className="bg-darkmode border border-darkmode group hover:border-primary hover:scale-105 duration-300 p-8 relative rounded-2xl">
@@ -127,7 +127,7 @@ const Work = () => {
             <h3 className="text-2xl text-white font-semibold text-center mt-8">
             Exchange Currency
             </h3>
-            <p className="text-start text-base font-normal text-white mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
+            <p className="text-justify break-all text-base text-white/60 mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
             To exchange any cryptocurrency, follow these steps:  <br /> <br />
               1. Choose an Exchange – Use a centralized (Binance, Coinbase) or decentralized (Uniswap, PancakeSwap) exchange.  
               <br />
