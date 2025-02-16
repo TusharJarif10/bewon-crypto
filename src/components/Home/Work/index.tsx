@@ -27,7 +27,7 @@ const Work = () => {
               How it work
             </span>
           </h3>
-          <p className="text-white md:text-lg font-normal leading-8 text-center">
+          <p className="text-white/60 md:text-lg font-normal leading-6 text-justify">
           BON Token is a cryptocurrency for AI-powered trading, using advanced AI to analyze market trends and execute trades efficiently. It enables secure transactions, fee payments, and staking rewards, making trading smarter and faster.
           </p>
         </div>

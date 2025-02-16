@@ -36,10 +36,10 @@ const Features = () => {
                 Features
               </span>
             </h3>
-            <h2 className="text-white text-xl lg:text-3xl font-semibold leading-snug mb-4 text-center ">
+            <h2 className="text-white/60 text-xl lg:text-3xl font-semibold leading-snug mb-4 text-center ">
               The most trusted cryptocurrency platform
             </h2>
-            <p className="md:text-md font-normal text-white text-center md:mb-10 mb:6 md:px-10">
+            <p className="md:text-md text-justify font-normal text-white/60 leading-6 md:mb-10 mb:6 md:px-10">
             Binance, Coinbase, and Kraken are top cryptocurrency platforms known for secure trading and strong regulatory compliance. They offer advanced security, high liquidity, and user-friendly interfaces for efficient transactions.
             </p>
           </div>
