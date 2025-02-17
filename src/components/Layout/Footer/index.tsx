@@ -75,7 +75,7 @@ const footer = () => {
         </div>
       </div>
       <div className='py-8 px-4 border-t border-t-lightblue'>
-        <h3 className='text-center text-white'>@2025 - All Rights Reserved by <Link href="https://getnextjstemplates.com/" target="_blank" className="hover:text-primary"> GetNextJs Templates.com</Link></h3>
+        <h3 className='text-center text-white'>@2025 - All Rights Reserved by <Link href="https://getnextjstemplates.com/" target="_blank" className="hover:text-primary"> Bewon</Link></h3>
       </div>
     </footer>
   )

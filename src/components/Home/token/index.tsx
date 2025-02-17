@@ -1,6 +1,14 @@
+"use client";
 import React from "react";
-
+import Slider from "@madzadev/image-slider";
+import "@madzadev/image-slider/dist/index.css";
 const TokenDescription = () => {
+  // const images = [
+  //   { url: "/images/Banner/alo1.jpg" },
+  //   { url: "/images/Banner/alo2.jpg" },
+  //   { url: "/images/Banner/alo3.jpg" },
+  // ];
+
   return (
     <div>
       <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner pb-5 bg-black">
@@ -38,6 +46,11 @@ const TokenDescription = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="px-5 md:px-10 bg-black flex md:flex-row flex-col items-center justify-center gap-4">
+        <img src="/images/Banner/alo1.jpg" alt="" height={500} width={400}/>
+        <img src="/images/Banner/alo2.jpg" alt="" height={500} width={400}/>
+        <img src="/images/Banner/alo3.jpg" alt="" height={500} width={400}/>
       </div>
     </div>
   );
