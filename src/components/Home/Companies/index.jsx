@@ -41,7 +41,7 @@ const Companies = () => {
   return (
     <section >
 
-      <h3 className="text-white/80 text-3xl md:text-5xl font-bold text-center  md:mb-14 mb-8">
+      <h3 className="text-white/80 text-3xl md:text-5xl font-bold text-center  md:mb-14 mb-4">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">Crypto prices</span>
       </h3>
 

@@ -34,7 +34,7 @@ const CryptoTable = () => {
     <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
       <h3
 
-        className="text-3xl md:text-5xl font-bold  text-center mt-5 mb-16"
+        className="text-3xl md:text-5xl font-bold  text-center mt-5 md:mb-16 mb-4"
       >
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
           Market Trend Live Stream

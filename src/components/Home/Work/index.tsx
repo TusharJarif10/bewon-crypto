@@ -21,17 +21,17 @@ const Work = () => {
     <section style={myStyle}>
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 md:mt-10 relative">
         <div className="bg-banner-image hidden lg:block absolute w-full h-full top-1/2 -right-1/4 blur-390"></div>
-        <div className="text-center mb-14">
-          <h3 className="text-white text-3xl md:text-5xl font-bold mb-3">
+        <div className="text-center md:mb-14 mb-6">
+          <h3 className="text-white text-3xl md:text-5xl font-bold mb-6">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
               How it work
             </span>
           </h3>
-          <p className="text-white/60 md:text-lg font-normal text-justify break-all">
+          <p className="text-white/60 md:text-lg font-normal text-justify break-all ">
           BON Token is a cryptocurrency for AI-powered trading, using advanced AI to analyze market trends and execute trades efficiently. It enables secure transactions, fee payments, and staking rewards, making trading smarter and faster.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 md:gap-y-20 gap-y-6 gap-x-5 md:mt-32 mt-20">
           <div className="bg-darkmode border border-darkmode group hover:border-primary hover:scale-105 duration-300 p-8 relative rounded-2xl">
             <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-gradient-to-r from-primary to-secondary">
               <Image

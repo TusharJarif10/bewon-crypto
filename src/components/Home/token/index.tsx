@@ -8,10 +8,10 @@ const TokenDescription = () => {
   // ];
 
   return (
-    <div>
-      <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner pb-5 bg-black">
+    <div className="">
+      <div className="w-full lg:h-screen h-full m-auto flex items-center justify-cetner pb-5 bg-gradient-to-b from-indigo-800 to-gray-700 ">
         <div className="w-full h-full flex flex-col justify-center items-center sm:px-4 px-2">
-          <h3 className="text-center text-3xl md:text-5xl font-bold mb-10">
+          <h3 className="text-center text-3xl md:text-5xl font-bold mb-10 mt-10">
             <span className="text-transparent  bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
               Learn more about BON Token
             </span>
@@ -27,7 +27,7 @@ const TokenDescription = () => {
 
               <img
                 className=" relative object-fill right-0 lg:w-[30rem] lg:h-[30rem] sm:w-[25rem] sm:h-[25rem] w-[12rem] h-[12rem]  "
-                src="/images/Banner/robot-token.png"
+                src="/images/Banner/v2.png"
                 alt="About us"
               />
             </div>
@@ -45,7 +45,7 @@ const TokenDescription = () => {
           </div>
         </div>
       </div>
-      <div className="px-5 md:px-10 bg-black flex md:flex-row flex-col items-center justify-center gap-4">
+      <div className="px-5 md:px-10 bg-gradient-to-b from-gray-700 to-indigo-800 flex md:flex-row flex-col items-center justify-center gap-4">
         <img src="/images/Banner/alo1.jpg" alt="" height={500} width={400}/>
         <img src="/images/Banner/alo2.jpg" alt="" height={500} width={400}/>
         <img src="/images/Banner/alo3.jpg" alt="" height={500} width={400}/>

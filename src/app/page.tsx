@@ -50,11 +50,11 @@ export default function Home() {
     <ParticlesComponent id="particles" />
       <Hero />
       <Companies />
-      <Work />
       <Table />
+      <Work />
       <Features />
       <TokenDescription />
-      <Simple />
+      {/* <Simple /> */}
       <Trade />
       <Contact />
       <Faq />
