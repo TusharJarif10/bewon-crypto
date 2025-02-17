@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Slider from "@madzadev/image-slider";
-import "@madzadev/image-slider/dist/index.css";
 const TokenDescription = () => {
   // const images = [
   //   { url: "/images/Banner/alo1.jpg" },
