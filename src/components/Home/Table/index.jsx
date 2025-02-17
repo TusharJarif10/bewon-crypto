@@ -62,11 +62,11 @@ const CryptoTable = () => {
                 <tr key={coin.id}>
                   <td className="px-4 py-6 text-center text-white">{index + 1}</td>
                   <td className="px-4 py-6 text-center text-white items-center justify-center "><img src={coin.image} alt={coin.name} width="30" height="30" /></td>
-                  <td className="px-4 py-6 text-center">{coin.name}</td>
-                  <td className="px-4 py-6 text-center">{coin.symbol.toUpperCase()}</td>
-                  <td className="px-4 py-6 text-center">${coin.current_price.toLocaleString()}</td>
-                  <td className="px-4 py-6 text-center">${coin.market_cap.toLocaleString()}</td>
-                  <td className="px-4 py-6 text-center" style={{ color: coin.price_change_percentage_24h >= 0 ? "green" : "red" }}>
+                  <td className="px-4 py-6 text-center text-white">{coin.name}</td>
+                  <td className="px-4 py-6 text-center text-white">{coin.symbol.toUpperCase()}</td>
+                  <td className="px-4 py-6 text-center text-white">${coin.current_price.toLocaleString()}</td>
+                  <td className="px-4 py-6 text-center text-white">${coin.market_cap.toLocaleString()}</td>
+                  <td className="px-4 py-6 text-center " style={{ color: coin.price_change_percentage_24h >= 0 ? "green" : "red" }}>
                     {coin.price_change_percentage_24h.toFixed(2)}%
                   </td>
                  
