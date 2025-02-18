@@ -45,7 +45,7 @@ const TokenDescription = () => {
           </div>
         </div>
       </div>
-      <div className="px-5 md:px-10 bg-gradient-to-b from-gray-700 to-indigo-800 flex md:flex-row flex-col items-center justify-center gap-4">
+      <div className="px-5 pb-4 md:px-10 bg-gradient-to-b from-gray-700 to-indigo-800 flex md:flex-row flex-col items-center justify-center gap-4">
         <img src="/images/Banner/alo1.jpg" alt="" height={500} width={400}/>
         <img src="/images/Banner/alo2.jpg" alt="" height={500} width={400}/>
         <img src="/images/Banner/alo3.jpg" alt="" height={500} width={400}/>

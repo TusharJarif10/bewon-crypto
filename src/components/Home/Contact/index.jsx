@@ -1,7 +1,56 @@
 "use client";
 import React from "react";
+import { useRef, useState } from "react";
+import axios from "axios";
 
 const ContactUs = () => {
+
+  const form = useRef();
+
+    const [username, setUsername] = useState('');
+    const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [details, setDetails] = useState('');
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        //your emailjs information
+        const serviceId = 'service_bgxl66b';
+        const templateId = 'template_2ryaq1b';
+        const publicKey = 'yOSb0j9NhfIDcblIn';
+
+        //create a object that contains dynamic template params
+        const data = {
+            service_id: serviceId,
+            template_id: templateId,
+            user_id: publicKey,
+            template_params: {
+                user_name: username,
+                user_email: email,
+                subject: subject,
+                message: details
+
+            }
+        };
+
+        try {
+            const res = await axios.post('https://api.emailjs.com/api/v1.0/email/send', data);
+            console.log(res.data);
+            setUsername('');
+            setEmail('');
+            setSubject('');
+            setDetails('');
+
+            alert('message send successfully');
+        } catch (error) {
+            console.error(error);
+            alert('something went wrong');
+        }
+    }
+
+
+
 
   return (
     <div 
@@ -162,28 +211,41 @@ const ContactUs = () => {
             </button>
           </div> */}
 
-          <form  method="POST" className="mt-8 space-y-4 z-100 relative">
+          <form ref={form} onSubmit={handleSubmit} className="mt-8 space-y-4 z-100 relative">
             <input
               type="text"
+              value={username}
+              name="user_name"
               placeholder="Name"
+              onChange={(e) => setUsername(e.target.value)} required
               className="w-full rounded-xl py-3 px-4 text-white/60 bg-gray-900 text-sm "
             />
             <input
               type="email"
+              value={email}
+              name="user_email"
               placeholder="Email"
+              onChange={(e) => setEmail(e.target.value)} required
               className="w-full rounded-xl py-3 px-4 text-white/60 text-sm bg-gray-900"
             />
             <input
               type="text"
+              value={subject}
+              name="subject"
               placeholder="Subject"
+              onChange={(e) => setSubject(e.target.value)} 
               className="w-full rounded-xl py-3 px-4 text-white/60 text-sm bg-gray-900"
             />
             <textarea rows={6}
               placeholder="Message"
+              value={details}
+              name="message"
+              onChange={(e) => setDetails(e.target.value)} required
               className="w-full rounded-xl px-4 text-white/60 text-sm pt-3 bg-gray-900"
             ></textarea>
             <button
               type="submit"
+              value="Send"
               className="text-black bg-gradient-to-tr from-teal-400/60 to-amber-500/60 tracking-wide rounded-full text-sm px-4 py-3 flex items-center justify-center w-full !mt-6"
             >
               <svg
