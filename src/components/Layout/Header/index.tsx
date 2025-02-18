@@ -156,9 +156,9 @@ const Header: React.FC = () => {
               className="block lg:hidden p-2 rounded-lg "
               aria-label="Toggle mobile menu"
             >
-              <span className="block w-6 h-0.5 bg-lime-400"></span>
-              <span className="block w-6 h-0.5 bg-amber-300 mt-1.5"></span>
-              <span className="block w-6 h-0.5 bg-lime-400 mt-1.5"></span>
+              <span className="block w-6 h-0.5 bg-blue-400"></span>
+              <span className="block w-6 h-0.5 bg-blue-300 mt-1.5"></span>
+              <span className="block w-6 h-0.5 bg-blue-400 mt-1.5"></span>
             </button>
           </div>
         </div>
@@ -171,7 +171,7 @@ const Header: React.FC = () => {
             navbarOpen ? "translate-x-0" : "translate-x-full"
           } z-50`}
         >
-          <div className="flex items-center justify-between pt-2 w-24">
+          <div className="flex items-center justify-between pt-2 w-24 mb-10">
             <h2 className="text-lg font-bold text-midnight_text dark:text-midnight_text">
               <Logo />
             </h2>
@@ -183,9 +183,11 @@ const Header: React.FC = () => {
               aria-label="Close menu Modal"
             ></button>
           </div>
-          <nav className="flex flex-col items-start p-4">
+          <nav className="flex flex-col items-start p-4 ">
             {headerData.map((item, index) => (
-              <MobileHeaderLink key={index} item={item} />
+              <div className="bg-gradient-to-bl from-blue-500 to-indigo-900 w-full rounded-md px-2 my-1">
+                <MobileHeaderLink key={index} item={item} />
+              </div>
             ))}
             <div className="mt-4 flex flex-col space-y-4 w-full">
               {/* <Link
