@@ -66,7 +66,7 @@ const footer = () => {
               <Image src={'/images/footer/number.svg'} alt="number-icon" width={20} height={20} />(406) 555-012
             </h4>
             <h4 className="text-white/60 text-sm font-normal mb-6 flex gap-2">
-              <Image src={'/images/footer/email.svg'} alt="email-icon" width={20} height={20} />tim.jennings@example.com
+              <Image src={'/images/footer/email.svg'} alt="email-icon" width={20} height={20} />bewoncare@gmail.com
             </h4>
             <h4 className="text-white/60 text-sm font-normal mb-6 flex gap-2">
               <Image src={'/images/footer/address.svg'} alt="address-icon" width={20} height={20} />Elgin St. Celina, Delaware 10299

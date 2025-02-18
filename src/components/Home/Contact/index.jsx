@@ -87,10 +87,10 @@ const ContactUs = () => {
                 href="javascript:void(0)"
                 className="text-white/60 text-sm ml-4"
               >
-                info@example.com
+                bewoncare@gmail.com
               </a>
             </li>
-            <li className="flex items-center">
+            {/* <li className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16px"
@@ -109,7 +109,7 @@ const ContactUs = () => {
               >
                 +158 996 888
               </a>
-            </li>
+            </li> */}
             <li className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
