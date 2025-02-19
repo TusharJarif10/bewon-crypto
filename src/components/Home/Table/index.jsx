@@ -31,54 +31,57 @@ const CryptoTable = () => {
   };
 
   return (
-    <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
-      <h3
+    <section>
+      <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4">
+        <h3
 
-        className="text-3xl md:text-5xl font-bold  text-center mt-5 md:mb-16 mb-4"
-      >
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
-          Market Trend Live Stream
-        </span>
-      </h3>
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <div className="rounded-2xl bg-tablebg p-8 overflow-x-auto relative z-10">
-          <table className="table-auto w-full mt-10">
-            <thead>
-              <tr className="text-white bg-border rounded-2xl">
-                <th className="px-4 py-4 font-normal">#</th>
-                <th className="px-2 py-4 font-normal">Image</th>
-                <th className="px-4 py-4 font-normal">Name</th>
-                <th className="px-4 py-4 font-normal">Symbol</th>
-                <th className="px-4 py-4 font-normal">Price (USD)</th>
-                <th className="px-4 py-4 font-normal">Market Cap</th>
-                <th className="px-4 py-4 font-normal">24h Change</th>
-                
-              </tr>
-            </thead>
-            <tbody>
-              {coins.map((coin, index) => (
-                <tr key={coin.id}>
-                  <td className="px-4 py-6 text-center text-white">{index + 1}</td>
-                  <td className="px-4 py-6 text-center text-white items-center justify-center "><img src={coin.image} alt={coin.name} width="30" height="30" /></td>
-                  <td className="px-4 py-6 text-center text-white">{coin.name}</td>
-                  <td className="px-4 py-6 text-center text-white">{coin.symbol.toUpperCase()}</td>
-                  <td className="px-4 py-6 text-center text-white">${coin.current_price.toLocaleString()}</td>
-                  <td className="px-4 py-6 text-center text-white">${coin.market_cap.toLocaleString()}</td>
-                  <td className="px-4 py-6 text-center " style={{ color: coin.price_change_percentage_24h >= 0 ? "green" : "red" }}>
-                    {coin.price_change_percentage_24h.toFixed(2)}%
-                  </td>
-                 
+          className="text-3xl md:text-5xl font-bold  text-center mt-5 md:mb-16 mb-4"
+        >
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-amber-500">
+            Market Trend Live Stream
+          </span>
+        </h3>
+        {loading ? (
+          <p>Loading...</p>
+        ) : (
+          <div className="rounded-2xl bg-tablebg p-8 overflow-x-auto relative z-10">
+            <table className="table-auto w-full mt-10">
+              <thead>
+                <tr className="text-white bg-border rounded-2xl">
+                  <th className="px-4 py-4 font-normal">#</th>
+                  <th className="px-2 py-4 font-normal">Image</th>
+                  <th className="px-4 py-4 font-normal">Name</th>
+                  <th className="px-4 py-4 font-normal">Symbol</th>
+                  <th className="px-4 py-4 font-normal">Price (USD)</th>
+                  <th className="px-4 py-4 font-normal">Market Cap</th>
+                  <th className="px-4 py-4 font-normal">24h Change</th>
+
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {coins.map((coin, index) => (
+                  <tr key={coin.id}>
+                    <td className="px-4 py-6 text-center text-white">{index + 1}</td>
+                    <td className="px-4 py-6 text-center text-white items-center justify-center "><img src={coin.image} alt={coin.name} width="30" height="30" /></td>
+                    <td className="px-4 py-6 text-center text-white">{coin.name}</td>
+                    <td className="px-4 py-6 text-center text-white">{coin.symbol.toUpperCase()}</td>
+                    <td className="px-4 py-6 text-center text-white">${coin.current_price.toLocaleString()}</td>
+                    <td className="px-4 py-6 text-center text-white">${coin.market_cap.toLocaleString()}</td>
+                    <td className="px-4 py-6 text-center " style={{ color: coin.price_change_percentage_24h >= 0 ? "green" : "red" }}>
+                      {coin.price_change_percentage_24h.toFixed(2)}%
+                    </td>
+
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
 
-      )}
-    </div>
+        )}
+      </div>
+    </section>
+
   );
 };
 

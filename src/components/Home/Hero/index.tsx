@@ -41,7 +41,7 @@ const Banner = () => {
                   <Typewriter words={[" you are ready!"]} loop={30} />
                 </span>
               </h1>
-              <p className="text-white/60 leading-6 md:text-lg font-normal mb-10 md:text-justify break-all md:pr-10 text-justify">
+              <p className="text-white/60 leading-6 md:text-lg font-normal mb-10 md:text-justify md:pr-10 text-justify">
                 Bewon AI trading is an advanced, algorithm driven platfrom that
                 uses AI and machine learning to automate and optimize trading
                 stragies. It analyzes market data in real time, executes precise
